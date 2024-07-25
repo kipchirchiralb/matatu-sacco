@@ -51,3 +51,21 @@ VALUES
   (3, 'KCA 789C', '2023-06-03 12:00:00', 'Scheduled'),
   (4, 'KDA 012D', '2023-06-04 14:30:00', 'Cancelled'),
   (5, 'KEA 345E', '2023-06-05 16:00:00', 'Completed');
+
+INSERT INTO trips (Route, Vehicle, Departure, TripStatus)
+VALUES
+  (1, 'KAA 123A', '2024-01-15 08:00:00', 'Completed'),
+  (2, 'KBA 456B', '2024-01-22 10:30:00', 'Ongoing'),
+  (3, 'KCA 789C', '2024-02-01 12:00:00', 'Scheduled'),
+  (4, 'KDA 012D', '2024-02-10 14:30:00', 'Cancelled'),
+  (5, 'KEA 345E', '2024-02-18 16:00:00', 'Completed'),
+  (1, 'KAA 123A', '2024-03-05 08:00:00', 'Completed'),
+  (2, 'KBA 456B', '2024-03-12 10:30:00', 'Ongoing'),
+  (3, 'KCA 789C', '2024-03-20 12:00:00', 'Scheduled'),
+  (4, 'KDA 012D', '2024-03-28 14:30:00', 'Cancelled'),
+  (5, 'KEA 345E', '2024-04-05 16:00:00', 'Completed'),
+  (1, 'KAA 123A', '2024-04-13 08:00:00', 'Completed'),
+  (2, 'KBA 456B', '2024-04-20 10:30:00', 'Ongoing'),
+  (3, 'KCA 789C', '2024-04-28 12:00:00', 'Scheduled'),
+  (4, 'KDA 012D', '2024-04-07 14:30:00', 'Cancelled'),
+  (5, 'KEA 345E', '2024-04-15 16:00:00', 'Completed');
